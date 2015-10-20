@@ -1,4 +1,4 @@
 # JavaDesignPattern
 
 Github中的项目如果以一个readme.md进行初始化的时候会导致第一次提交失败，因为远程库和本地git仓库不一致
-所以要先从远程库那里把初始化文件下载下来，用命令 git pull --rebase origin master可以下载下来。
+所以要先从远程库那里把初始化文件下载下来，用命令 git pull --rebase origin master
