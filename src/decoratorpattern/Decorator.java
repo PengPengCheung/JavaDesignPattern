@@ -1,5 +1,10 @@
 package decoratorpattern;
 
+/*
+ * 装饰者类既需要继承Component类，也需要组合Component类
+ * 继承是为了可以一直传入被装饰的对象，如果仅仅注入Component类并不能一直往装饰对象添加新功能
+ * 注入Component类是为了可以调用Component基类的Operation方法，实现运行时多态
+ * */
 public abstract class Decorator extends Component{//关键继承，如果不继承Component，Decorator的子类就无法用setComponent一层一层地装饰了
 	
 	private Component component;
