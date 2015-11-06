@@ -1,0 +1,14 @@
+package proxypattern;
+
+public class ProxyPatternTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Subject proxy = new Proxy();
+		proxy.request();
+	}
+
+}
