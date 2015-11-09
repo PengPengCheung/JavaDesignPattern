@@ -22,7 +22,7 @@ public class CouplingDemo {
 	
 	/*
 	 * 聚合关系：
-	 * 可实现聚合关系的整体和可分离
+	 * 用set方法可实现聚合关系的整体和可分离
 	 * */
 	public void setAggregation(Girl[] aggregation){
 		this.aggregation = aggregation;
