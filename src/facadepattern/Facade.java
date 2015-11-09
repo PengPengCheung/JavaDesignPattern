@@ -6,7 +6,7 @@ package facadepattern;
  * 3、如果不提供一个抽象的外观类，当增加新的子系统或者功能的时候要对原有的外观类进行修改，违反了开闭原则
  * 因此为了解决这个问题，可以引入抽象外观类，并创建新的具体外观类，让具体外观类实现新增的功能
  * */
-public class Facade {
+public class Facade extends AbstractFacade{
 	private SubSystemA subA;
 	private SubSystemB subB;
 	private SubSystemC subC;
