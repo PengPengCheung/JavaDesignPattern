@@ -1,1 +1,3 @@
 The project will be continued to finish the 23 kinds of design patterns.
+对设计模式的初步学习暂时到此为止，项目中仍有迭代器模式和解释器模式没有完成Demo，但由于实际中有现成的类和方法可运用以及使用频率等因素，因此暂时不实现
+往后会增加对java线程、泛型、Android的Volley框架等的学习代码。
